@@ -1,0 +1,28 @@
+.circle {
+border-radius: 50%;
+}
+
+.square, .circle {
+width: 100px;
+height: 100px;
+display: block;
+}
+
+#container {
+background-color: orange; margin: 0 auto;
+width: 400px;
+}
+
+#blockRed {
+background-color: blue;
+position: relative;
+}
+
+#blockYellow {
+background-color: violet;
+position: relative;
+}
+
+#blockWood {
+background-image: url('wood.jpeg');
+}
